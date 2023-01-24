@@ -28,7 +28,7 @@ h2 {
 	font-size: 16px;
 	margin: 0;
 	text-transform: uppercase;
-	color: rgb(200, 200, 200)
+	color: white;
 }
 
 h3 {
@@ -57,6 +57,10 @@ button {
 	align-items: center;
 	color: white;
 	cursor: pointer;
+}
+
+.tel {
+	width: 120px;
 }
 
 .menu {
@@ -128,6 +132,7 @@ button {
 	min-height: 500px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+	background-color: #ecedef;
 }
 .container1 {
 	width: 100%;
@@ -238,17 +243,16 @@ button {
 .finish .finish_wrapper .finish_item .finish_descr {
     margin-top: 10px;
     text-align: left;
-    color:#b7b6b6;
+    color: white;
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
-    text-transform: uppercase;
 }
 
 .finish .finish_wrapper .finish_item .finish_descr1 {
     margin-top: 0;
     text-align: left;
-    color:#b7b6b6;
+    color: white;
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
@@ -259,6 +263,13 @@ footer {
 	height: 200px;
 	width: 100%;
 }
+
+.footer {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
 
 @media (max-width:767px) {
 	h3 {
@@ -375,8 +386,7 @@ footer {
 	}
 	.optimization0 .optimization0_wrapper .optimization0_img img {
 		border-radius: 50px 0 50px 0;
-		width: 300px;
-		align-items:center;
+		min-width: 300px;
 	}
 	.optimization .optimization_wrapper {
 		flex-direction: column;
@@ -400,7 +410,7 @@ footer {
 	}
 	.optimization .optimization_wrapper .optimization_img img {
 		border-radius: 50px 0 50px 0;
-		width: 300px;
+		min-width: 300px;
 	}
 	footer {
 		height: 100%;
@@ -410,5 +420,11 @@ footer {
 	}
 	.finish_wrapper {
 		flex-direction: column;
+	}
+	.finish .finish_wrapper .finish_round {
+		display: none;
+	}
+	.finish .finish_wrapper .finish_item .finish_descr1 {
+		margin-top: 10px;
 	}
 }
