@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-	color:rgb(247, 104, 104);
+	color:rgb(109, 175, 255)
 }
 
 h1 {
@@ -53,7 +53,7 @@ header {
 	border-radius: 5px;
 	border: none;
 	margin-top: 1px;
-	background-color:rgb(247, 104, 104);
+	background-color:rgb(109, 175, 255);
 	align-items: center;
 	color: white;
 	cursor: pointer;
@@ -191,11 +191,12 @@ header {
 
 .optimization .optimization_img {
     display: inline;
+	width: 100%;
 	padding: 40px 15px 15px 20px;
 }
 
 .optimization .optimization_img img {
-	width: 100%;
+	width: 700px;
 	border-radius: 50px 0px 50px 0px;
 }
 
@@ -459,7 +460,6 @@ footer {
 	}
 	.finish .finish_wrapper .finish_item .finish_descr1 {
 		margin-top: 10px;
-		padding-bottom: 4px;
 		text-align: center;
 	}
 	.finish .finish_wrapper .finish_item .finish_descr {
