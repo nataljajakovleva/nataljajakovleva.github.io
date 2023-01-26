@@ -47,6 +47,10 @@ header {
 	background: url('../img/fon.jpg') center center/cover no-repeat;
 }
 
+.hamburger {
+	display: none;
+}
+
 .menu_btn {
 	height: 28px;
 	width: 60px;
@@ -68,6 +72,10 @@ header {
 	align-items: center;
 	color: white;
 	cursor: pointer;
+}
+
+a:hover .tel {
+	color: rgb(109, 175, 255);
 }
 
 .menu {
@@ -155,6 +163,7 @@ header {
 
 .optimization0 .optimization0_wrapper .optimization0_text {
 	display: inline;
+	inline-size: 60%;
     color: #000000;
     font-size: 15px;
     font-weight: 400;
@@ -164,13 +173,13 @@ header {
 
 .optimization0 .optimization0_wrapper .optimization0_img {
 	display: inline;
+	inline-size: 40%;
 	padding: 40px 15px 15px 15px;
 }
 
 .optimization0 .optimization0_wrapper .optimization0_img img {
 	width: 100%;
 	border-radius: 50px 0px 50px 0px;
-	align-items: center;
 }
 
 .optimization {
@@ -191,25 +200,23 @@ header {
 
 .optimization .optimization_img {
     display: inline;
-	width: 100%;
+	inline-size: 40%;
 	padding: 40px 15px 15px 20px;
 }
 
 .optimization .optimization_img img {
-	width: 700px;
+	width: 100%;
 	border-radius: 50px 0px 50px 0px;
 }
 
 .optimization .optimization_text {
 	display: inline;
+	inline-size: 60%;
     color: #000000;
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
-	padding: 20px 20px 0px 20px;
-	font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
+	padding: 20px 20px 20px 20px;
 }
 
 .finish {
@@ -469,6 +476,9 @@ footer {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	a:hover .tel {
+		color: white;
 	}
 	.span_footer {
 		display: block;
