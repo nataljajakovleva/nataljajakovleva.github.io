@@ -154,7 +154,6 @@ ol {
 }
 .bd-example {
 	display: none;
-	min-height: 530px;
 }
 .carousel-item img {
 	border-radius: 50px 0px 50px 0px;
@@ -354,9 +353,6 @@ footer {
 		margin-top: 4px;
 	}
 	h2 {
-		font-size: 1rem;
-	}
-	h3 {
 		display: block;
 		margin-top: auto;
 		margin-bottom: 10px;
@@ -434,6 +430,7 @@ footer {
 	.bd-example {
 		display: block;
 		padding-top: 20px;
+		min-height: 450px;
 	}
 	.carousel-indicators li {
 		list-style-type: none;
