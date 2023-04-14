@@ -1,0 +1,111 @@
+.hamburger {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 22px;
+    cursor: pointer;
+}
+.hamburger span {
+    display: block;
+    width: 30px;
+    background: rgb(228, 200, 127);
+    height: 3px;
+    border-radius: 2px;
+}
+span.hamburger_long {
+    width: 24px;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.6s;
+}
+.active {
+    left: 0;
+    visibility: visible;
+    opacity: 1;
+}
+.menu_block {
+    position: relative;
+    padding-top: 140px;
+    width: 320px;
+    background-color: rgb(131, 160, 190);
+    height: 100%;
+    transition: all 0.6s;
+    z-index: 10;
+}
+.menu_close {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    cursor: pointer;
+}
+.menu_close:hover svg path {
+    fill:rgb(228, 200, 127);
+    transition: all 0.4s;
+}
+.menu_list {
+    list-style-type: none;
+}
+ul.menu_list {
+    padding: 0;
+}
+.menu_link {
+    position: relative;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 15px;
+    background-color: none;
+}
+.menu_link a{
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu_block a:hover {
+    color:rgb(228, 200, 127);
+    transition: all 0.4s;
+}
+.menu_social {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+}
+.fb:hover svg path{
+    fill: rgb(228, 200, 127);
+    transition: all 0.4s;
+}
+.in:hover svg path{
+    fill: rgb(228, 200, 127);
+    transition: all 0.4s;
+}
+.gh:hover svg path{
+    fill: rgb(228, 200, 127);
+    transition: all 0.4s;
+}
+.menu_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.75;
+}
+

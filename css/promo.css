@@ -1,0 +1,12 @@
+.promo {
+    text-align: center;
+    background: url('/img/futzi.jpg') center center/cover no-repeat;
+}
+.promo_title {
+    margin-top: 180px;
+    margin-left: 15%;
+}
+.promo h1 {
+    padding-left: 0;
+    text-align: left;
+}

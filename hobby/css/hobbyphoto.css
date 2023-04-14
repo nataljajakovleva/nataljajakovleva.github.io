@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+.container_hobbyphoto {
+    display: block;
+    background:grey;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.grid_hobbyphoto {
+    display: grid;
+    width: 760px;
+    height: 950px;
+    grid-template: repeat(5, 190px) / repeat(4, 190px);
+    place-content: space-around space-around;
+    background-color:rgb(180, 177, 177);
+    margin: 0 auto;
+}
+#photo1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+#photo2 {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+#photo3 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+}
+#photo4 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+#photo5 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+#photo6 {
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+}
+#photo7 {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    background-color:rgb(227, 225, 225);
+    padding: 60px;
+}
+#photo8 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 6;
+}
+#photo10 {
+    grid-column: 4 / 5;
+    grid-row: 4 / 6;
+}
+#photo9 {
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+}
+.ris .vertical img {
+    width: 190px;
+    height: 360px;
+}
+.horizontal img {
+    width: 360px;
+    height: 190px;
+}
+.text {
+    text-align: center;
+    font-size: 52px;
+    color:rgb(112, 90, 59);
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
